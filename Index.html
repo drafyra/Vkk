@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Privacy / Search -->
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
+
+  <meta name="theme-color" content="#080811">
+
+  <title>Vicky ❤️ Kashish | Our Little Universe</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       INTRO SCREEN
+  ========================== -->
+
+  <div id="introScreen" class="intro-screen">
+
+    <div class="stars"></div>
+
+    <div class="intro-card">
+
+      <div class="mini-text">
+        A LITTLE WORLD MADE FOR TWO HEARTS
+      </div>
+
+      <h1>
+        Vicky
+        <span>❤️</span>
+        Kashish
+      </h1>
+
+      <p id="introDescription">
+        This isn't just a website.
+        It's a little universe of memories,
+        moments and feelings that keep growing
+        every second.
+      </p>
+
+      <button id="enterButton" class="main-button">
+        ✨ Open Our World
+      </button>
+
+      <div class="language-buttons">
+        <button class="language active" data-language="en">
+          English
+        </button>
+
+        <button class="language" data-language="hi">
+          हिंदी
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       MAIN WEBSITE
+  ========================== -->
+
+  <div id="mainWebsite" class="website hidden">
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+      <a href="#home" class="logo">
+        V <span>❤️</span> K
+      </a>
+
+      <nav class="navigation">
+
+        <a href="#home"
+           data-en="Home"
+           data-hi="होम">
+          Home
+        </a>
+
+        <a href="#timer"
+           data-en="Our Time"
+           data-hi="हमारा सफर">
+          Our Time
+        </a>
+
+        <a href="#memories"
+           data-en="Memories"
+           data-hi="यादें">
+          Memories
+        </a>
+
+        <a href="#story"
+           data-en="Our Story"
+           data-hi="हमारी कहानी">
+          Our Story
+        </a>
+
+        <a href="#letter"
+           data-en="Love Note"
+           data-hi="प्यार की चिट्ठी">
+          Love Note
+        </a>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button id="musicButton" class="icon-button">
+          ♪
+        </button>
+
+        <button class="language active"
+                data-language="en">
+          EN
+        </button>
+
+        <button class="language"
+                data-language="hi">
+          हि
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section id="home" class="hero">
+
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="floating-heart heart-one">❤️</div>
+      <div class="floating-heart heart-two">♡</div>
+      <div class="floating-heart heart-three">✨</div>
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          SINCE 12 NOVEMBER 2023 • 2:00 PM
+        </div>
+
+        <h2>
+          Two Hearts.
+          <br>
+          <span>One Little Universe.</span>
+        </h2>
+
+        <p
+          data-en="For Kashish, from Vicky — a little world where every second becomes a memory."
+          data-hi="कशिश के लिए, विक्की की तरफ़ से — एक ऐसी छोटी-सी दुनिया जहाँ हर सेकंड एक याद बनता है।">
+          For Kashish, from Vicky — a little world where every second becomes a memory.
+        </p>
+
+        <a href="#timer" class="main-button">
+          ♡ See Our Journey
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LOVE TIMER
+    ========================== -->
+
+    <section id="timer" class="section timer-section">
+
+      <div class="eyebrow">
+        EVERY SECOND MATTERS
+      </div>
+
+      <h3
+        data-en="Our time is still counting…"
+        data-hi="हमारा सफर अभी भी जारी है…">
+        Our time is still counting…
+      </h3>
+
+      <p class="section-description"
+         data-en="Since the moment our story began."
+         data-hi="उस पल से जब हमारी कहानी शुरू हुई।">
+        Since the moment our story began.
+      </p>
+
+      <div class="timer">
+
+        <div class="time-box">
+          <strong id="years">0</strong>
+          <span data-en="Years" data-hi="साल">
+            Years
+          </span>
+        </div>
+
+        <div class="time-box">
+          <strong id="months">0</strong>
+          <span data-en="Months" data-hi="महीने">
+            Months
+          </span>
+        </div>
+
+        <div class="time-box">
+          <strong id="days">0</strong>
+          <span data-en="Days" data-hi="दिन">
+            Days
+          </span>
+        </div>
+
+        <div class="time-box">
+          <strong id="hours">0</strong>
+          <span data-en="Hours" data-hi="घंटे">
+            Hours
+          </span>
+        </div>
+
+        <div class="time-box">
+          <strong id="minutes">0</strong>
+          <span data-en="Minutes" data-hi="मिनट">
+            Minutes
+          </span>
+        </div>
+
+        <div class="time-box">
+          <strong id="seconds">0</strong>
+          <span data-en="Seconds" data-hi="सेकंड">
+            Seconds
+          </span>
+        </div>
+
+      </div>
+
+      <p class="timer-bottom"
+         data-en="Every new second adds one more little piece to our story. ❤️"
+         data-hi="हर नया सेकंड हमारी कहानी में प्यार का एक और छोटा-सा पल जोड़ देता है। ❤️">
+        Every new second adds one more little piece to our story. ❤️
+      </p>
+
+    </section>
+
+
+    <!-- =========================
+         OUR STORY
+    ========================== -->
+
+    <section id="story" class="section story-section">
+
+      <div class="eyebrow">
+        OUR JOURNEY
+      </div>
+
+      <h3
+        data-en="A story still being written…"
+        data-hi="एक कहानी जो अभी भी लिखी जा रही है…">
+        A story still being written…
+      </h3>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <div class="timeline-dot">
+            ❤️
+          </div>
+
+          <div class="timeline-card">
+
+            <small>
+              12 NOVEMBER 2023
+            </small>
+
+            <h4
+              data-en="Where it began"
+              data-hi="जहाँ से शुरुआत हुई">
+              Where it began
+            </h4>
+
+            <p
+              data-en="A date that became the beginning of countless little moments."
+              data-hi="एक ऐसी तारीख जो अनगिनत खूबसूरत पलों की शुरुआत बन गई।">
+              A date that became the beginning of countless little moments.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="timeline-dot">
+            ✨
+          </div>
+
+          <div class="timeline-card">
+
+            <small>
+              EVERY MOMENT AFTER
+            </small>
+
+            <h4
+              data-en="Memories became everything"
+              data-hi="यादें ही सब कुछ बन गईं">
+              Memories became everything
+            </h4>
+
+            <p
+              data-en="Not every beautiful moment needs a big story. Sometimes a smile is enough."
+              data-hi="हर खूबसूरत पल को बड़ी कहानी की जरूरत नहीं होती। कभी-कभी एक मुस्कान ही काफी होती है।">
+              Not every beautiful moment needs a big story. Sometimes a smile is enough.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <div class="timeline-dot">
+            💫
+          </div>
+
+          <div class="timeline-card">
+
+            <small>
+              TODAY
+            </small>
+
+            <h4
+              data-en="Still counting"
+              data-hi="सफर अभी जारी है">
+              Still counting
+            </h4>
+
+            <p
+              data-en="The timer keeps moving because the story isn't finished yet."
+              data-hi="टाइमर चलता रहता है क्योंकि कहानी अभी खत्म नहीं हुई है।">
+              The timer keeps moving because the story isn't finished yet.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORIES
+    ========================== -->
+
+    <section id="memories" class="section memories-section">
+
+      <div class="eyebrow">
+        SEVEN LITTLE MEMORIES
+      </div>
+
+      <h3
+        data-en="Tap a memory ❤️"
+        data-hi="किसी याद पर टैप करें ❤️">
+        Tap a memory ❤️
+      </h3>
+
+      <div class="gallery">
+
+        <article class="photo-card" data-photo="1">
+
+          <img
+            src="assets/Photo01.png"
+            alt="Memory 01">
+
+          <div class="photo-info">
+            <b>01</b>
+            <span
+              data-en="A moment worth keeping."
+              data-hi="एक ऐसा पल जिसे संभालकर रखना है।">
+              A moment worth keeping.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="2">
+
+          <img
+            src="assets/Photo02.png"
+            alt="Memory 02">
+
+          <div class="photo-info">
+            <b>02</b>
+            <span
+              data-en="Some moments feel like home."
+              data-hi="कुछ पल घर जैसे लगते हैं।">
+              Some moments feel like home.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="3">
+
+          <img
+            src="assets/Photo03.png"
+            alt="Memory 03">
+
+          <div class="photo-info">
+            <b>03</b>
+            <span
+              data-en="A smile that stays."
+              data-hi="एक मुस्कान जो हमेशा साथ रहती है।">
+              A smile that stays.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="4">
+
+          <img
+            src="assets/Photo04.png"
+            alt="Memory 04">
+
+          <div class="photo-info">
+            <b>04</b>
+            <span
+              data-en="One frame, countless feelings."
+              data-hi="एक तस्वीर, अनगिनत एहसास।">
+              One frame, countless feelings.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="5">
+
+          <img
+            src="assets/Photo05.png"
+            alt="Memory 05">
+
+          <div class="photo-info">
+            <b>05</b>
+            <span
+              data-en="The kind of memory you replay."
+              data-hi="वो याद जिसे बार-बार देखने का मन करे।">
+              The kind of memory you replay.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="6">
+
+          <img
+            src="assets/Photo06.png"
+            alt="Memory 06">
+
+          <div class="photo-info">
+            <b>06</b>
+            <span
+              data-en="Little things, big feelings."
+              data-hi="छोटी-छोटी बातें, बड़े एहसास।">
+              Little things, big feelings.
+            </span>
+          </div>
+
+        </article>
+
+
+        <article class="photo-card" data-photo="7">
+
+          <img
+            src="assets/Photo07.png"
+            alt="Memory 07">
+
+          <div class="photo-info">
+            <b>07</b>
+            <span
+              data-en="Still becoming our favorite story."
+              data-hi="हमारी पसंदीदा कहानी अभी भी बन रही है।">
+              Still becoming our favorite story.
+            </span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LOVE NOTE
+    ========================== -->
+
+    <section id="letter" class="section letter-section">
+
+      <div class="love-letter">
+
+        <div class="eyebrow">
+          A NOTE FROM HUSBAND JI
+        </div>
+
+        <h3
+          data-en="For Kashish, my Wife ❤️"
+          data-hi="कशिश, मेरी वाइफ के नाम ❤️">
+          For Kashish, my Wife ❤️
+        </h3>
+
+        <p
+          data-en="If these pages could hold a feeling, I would fill every one of them with the little happiness you bring into my world. From that first moment to every second after it, this story is not about a perfect life — it is about two people making ordinary moments feel extraordinary."
+          data-hi="अगर इन पन्नों में कोई एहसास रखा जा सकता, तो मैं हर पन्ने को उस छोटी-सी खुशी से भर देता जो तुम मेरी दुनिया में लाती हो। उस पहली मुलाकात से लेकर आज के हर सेकंड तक, यह कहानी किसी परफेक्ट जिंदगी की नहीं — बल्कि दो लोगों की है जो साधारण पलों को भी खास बना देते हैं।">
+          If these pages could hold a feeling, I would fill every one of them with the little happiness you bring into my world. From that first moment to every second after it, this story is not about a perfect life — it is about two people making ordinary moments feel extraordinary.
+        </p>
+
+        <div class="signature">
+          Husband Ji ✨
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FINAL
+    ========================== -->
+
+    <section class="final-section">
+
+      <div class="firework-container"></div>
+
+      <div class="final-content">
+
+        <div class="big-heart">
+          ❤️
+        </div>
+
+        <h3
+          data-en="Forever Together"
+          data-hi="हमेशा साथ">
+          Forever Together
+        </h3>
+
+        <p
+          data-en="The story keeps going… one second at a time."
+          data-hi="कहानी चलती रहेगी… हर सेकंड के साथ।">
+          The story keeps going… one second at a time.
+        </p>
+
+        <button id="celebrateButton" class="main-button">
+          ✨ Celebrate Us
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+      <div class="footer-main">
+
+        <div class="footer-logo">
+          Vicky <span>❤️</span> Kashish
+        </div>
+
+        <p
+          data-en="A little universe, made from a thousand tiny moments."
+          data-hi="एक छोटी-सी दुनिया, जो हज़ारों छोटे-छोटे पलों से बनी है।">
+          A little universe, made from a thousand tiny moments.
+        </p>
+
+      </div>
+
+
+      <a
+        class="instagram-button"
+        href="https://www.instagram.com/vk__vicky_kothe/"
+        target="_blank"
+        rel="noopener noreferrer">
+
+        Instagram ↗
+
+      </a>
+
+
+      <div class="creator-credit">
+        Crafted with ❤️ by Sanjay Art
+      </div>
+
+    </footer>
+
+  </div>
+
+
+  <!-- =========================
+       PHOTO MODAL
+  ========================== -->
+
+  <div id="photoModal" class="photo-modal hidden">
+
+    <button id="closeModal" class="close-modal">
+      ×
+    </button>
+
+    <div class="modal-content">
+
+      <img id="modalImage" src="" alt="Memory">
+
+      <div class="modal-number" id="modalNumber">
+        MEMORY 01
+      </div>
+
+      <p id="modalThought">
+        A moment worth keeping.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- HEART PARTICLES -->
+
+  <div id="particleContainer"></div>
+
+
+  <!-- MUSIC -->
+  <!-- अगर music डालनी हो तो नीचे src में file path डाल सकते हैं -->
+
+  <audio
+    id="backgroundMusic"
+    loop>
+  </audio>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
